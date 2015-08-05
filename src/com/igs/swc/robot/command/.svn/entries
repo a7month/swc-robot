@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2013-11-01T03:07:18.183102Z"
+   url="svn://10.45.7.40:30000/swc-robot/trunk/src/com/igs/swc/robot/command"
+   last-author="mikewang"
+   kind="dir"
+   uuid="c18ddf49-f98f-4173-9529-5273d87822aa"
+   repos="svn://10.45.7.40:30000"
+   revision="138"/>
+<entry
+   committed-rev="129"
+   name="CheckOfflineCmd.java"
+   text-time="2013-11-01T08:37:26.171875Z"
+   committed-date="2013-11-01T03:07:18.183102Z"
+   checksum="f729d31259754856d584a30d3561424c"
+   last-author="mikewang"
+   kind="file"
+   prop-time="2013-11-01T08:37:26.171875Z"/>
+<entry
+   committed-rev="8"
+   name="package-info.java"
+   text-time="2013-10-15T02:57:28.703125Z"
+   committed-date="2013-10-15T02:55:34.860906Z"
+   checksum="e32d96f487a7bd2dda0e0259f961e3d2"
+   last-author="mikewang"
+   kind="file"
+   prop-time="2013-10-15T02:57:28.703125Z"/>
+<entry
+   committed-rev="8"
+   name="LogCmd.java"
+   text-time="2013-10-15T02:57:28.703125Z"
+   committed-date="2013-10-15T02:55:34.860906Z"
+   checksum="b1aa43d2553578cd78487ad02bd30636"
+   last-author="mikewang"
+   kind="file"
+   prop-time="2013-10-15T02:57:28.703125Z"/>
+</wc-entries>

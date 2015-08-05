@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redis="http://www.springframework.org/schema/redis"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/redis
+	http://www.springframework.org/schema/redis/spring-redis.xsd
+	http://www.springframework.org/schema/task
+	http://www.springframework.org/schema/task/spring-task.xsd
+	">
+
+	<alias name="_redisTemplate" alias="redisTemplate" />
+
+	<bean id="checkOfflineCmd" class="com.igs.swc.robot.command.CheckOfflineCmd">
+		<property name="redisTemplate" ref="redisTemplate" />
+		<property name="swcKeys" ref="swcKeys" />
+	</bean>
+
+	<!-- ========================= -->
+
+	<task:executor id="robotExecutor" pool-size="5" />
+	<task:scheduler id="robotScheduler" pool-size="10" />
+
+	<task:scheduled-tasks scheduler="robotScheduler">
+		<task:scheduled ref="checkOfflineCmd" method="execute"
+			fixed-delay="180000" initial-delay="180000" />
+	</task:scheduled-tasks>
+</beans>

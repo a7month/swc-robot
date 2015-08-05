@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="129"
+   name=""
+   committed-date="2013-11-01T03:07:18.183102Z"
+   url="svn://10.45.7.40:30000/swc-robot/trunk/src/com/igs/swc/robot"
+   last-author="mikewang"
+   kind="dir"
+   uuid="c18ddf49-f98f-4173-9529-5273d87822aa"
+   repos="svn://10.45.7.40:30000"
+   revision="138"/>
+<entry
+   committed-rev="8"
+   name="RobotCommand.java"
+   text-time="2013-10-15T02:57:28.718750Z"
+   committed-date="2013-10-15T02:55:34.860906Z"
+   checksum="ef494da6f90130dd92ac79e6a92a3737"
+   last-author="mikewang"
+   kind="file"
+   prop-time="2013-10-15T02:57:28.671875Z"/>
+<entry
+   committed-rev="8"
+   name="package-info.java"
+   text-time="2013-10-15T02:57:28.718750Z"
+   committed-date="2013-10-15T02:55:34.860906Z"
+   checksum="ef0619af05a5585282fa75723f2ba6b4"
+   last-author="mikewang"
+   kind="file"
+   prop-time="2013-10-15T02:57:28.671875Z"/>
+<entry
+   name="util"
+   kind="dir"/>
+<entry
+   name="command"
+   kind="dir"/>
+</wc-entries>

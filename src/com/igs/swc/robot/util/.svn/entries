@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="8"
+   name=""
+   committed-date="2013-10-15T02:55:34.860906Z"
+   url="svn://10.45.7.40:30000/swc-robot/trunk/src/com/igs/swc/robot/util"
+   last-author="mikewang"
+   kind="dir"
+   uuid="c18ddf49-f98f-4173-9529-5273d87822aa"
+   repos="svn://10.45.7.40:30000"
+   revision="138"/>
+<entry
+   committed-rev="8"
+   name="package-info.java"
+   text-time="2013-10-15T02:57:28.687500Z"
+   committed-date="2013-10-15T02:55:34.860906Z"
+   checksum="5269f2a5ba2b2d451b5445e7f913b6c9"
+   last-author="mikewang"
+   kind="file"
+   prop-time="2013-10-15T02:57:28.687500Z"/>
+<entry
+   committed-rev="8"
+   name="ParamMap.java"
+   text-time="2013-10-15T02:57:28.687500Z"
+   committed-date="2013-10-15T02:55:34.860906Z"
+   checksum="2ef8f6c7a724e82ea2b437117ac2af1d"
+   last-author="mikewang"
+   kind="file"
+   prop-time="2013-10-15T02:57:28.687500Z"/>
+</wc-entries>
